@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import blueLogo from "@/assets/blue-logo.png";
 
 const Footer = () => {
   return (
@@ -7,9 +8,7 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto">
           {/* Main content */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-display font-bold mb-4">
-              Blue B
-            </h2>
+            <img src={blueLogo} alt="Blue B" className="h-12 sm:h-14 w-auto mx-auto mb-4 brightness-0 invert" />
             <p className="text-lg text-primary-foreground/80 max-w-md mx-auto">
               Aqui, desejo vira direção. E direção vira resultado.
             </p>
