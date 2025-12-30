@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import blueLogo from "@/assets/blue-logo.png";
 
 const navItems = [
   { label: "Sobre", href: "#sobre" },
@@ -32,10 +33,8 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-display font-bold text-primary">
-              Blue B
-            </span>
+          <a href="/" className="flex items-center">
+            <img src={blueLogo} alt="Blue B" className="h-8 sm:h-10 w-auto" />
           </a>
 
           {/* Desktop nav */}
