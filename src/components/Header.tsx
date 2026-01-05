@@ -52,7 +52,7 @@ const Header = () => {
 
           {/* CTA */}
           <div className="hidden md:block">
-            <a href="https://wa.me/5561924065556" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/+556192406556" target="_blank" rel="noopener noreferrer">
               <Button variant="cta" size="default">
                 Fale conosco
               </Button>
@@ -84,7 +84,7 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <a href="https://wa.me/5561924065556" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/+556192406556" target="_blank" rel="noopener noreferrer">
               <Button variant="cta" size="lg" className="w-full mt-4">
                 Fale conosco
               </Button>
