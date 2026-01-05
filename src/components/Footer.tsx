@@ -1,7 +1,7 @@
 import { Instagram, Mail, Phone } from "lucide-react";
 import blueLogo from "@/assets/blue-logo.png";
 
-const WHATSAPP_LINK = "https://wa.me/5561924065556";
+const WHATSAPP_LINK = "https://wa.me/+556192406556";
 
 const TikTokIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">

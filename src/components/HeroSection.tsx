@@ -24,7 +24,7 @@ const HeroSection = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://wa.me/5561924065556" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+556192406556" target="_blank" rel="noopener noreferrer">
                 <Button variant="hero" size="xl" className="group w-full">
                   Quero crescer agora
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
