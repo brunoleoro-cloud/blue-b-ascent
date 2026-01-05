@@ -52,9 +52,11 @@ const Header = () => {
 
           {/* CTA */}
           <div className="hidden md:block">
-            <Button variant="cta" size="default">
-              Fale conosco
-            </Button>
+            <a href="https://wa.me/5561924065556" target="_blank" rel="noopener noreferrer">
+              <Button variant="cta" size="default">
+                Fale conosco
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -82,9 +84,11 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="cta" size="lg" className="w-full mt-4">
-              Fale conosco
-            </Button>
+            <a href="https://wa.me/5561924065556" target="_blank" rel="noopener noreferrer">
+              <Button variant="cta" size="lg" className="w-full mt-4">
+                Fale conosco
+              </Button>
+            </a>
           </div>
         </div>
       )}
