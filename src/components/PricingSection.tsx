@@ -37,10 +37,12 @@ const PricingSection = () => {
             </div>
             
             {/* CTA */}
-            <Button variant="hero" size="xl" className="w-full sm:w-auto group">
-              Quero meu crescimento agora
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <a href="https://wa.me/5561924065556" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="xl" className="w-full sm:w-auto group">
+                Quero meu crescimento agora
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </a>
           </div>
           
           {/* Trust text */}
