@@ -37,10 +37,11 @@ const PricingSection = () => {
             </div>
             
             {/* CTA */}
-            <a href="https://wa.me/+556192406556" target="_blank" rel="noopener noreferrer">
-              <Button variant="hero" size="xl" className="w-full sm:w-auto group">
-                Quero meu crescimento agora
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+            <a href="https://wa.me/+556192406556" target="_blank" rel="noopener noreferrer" className="block">
+              <Button variant="hero" size="xl" className="w-full sm:w-auto group whitespace-normal px-6">
+                <span className="hidden sm:inline">Quero meu crescimento agora</span>
+                <span className="sm:hidden">Quero crescer agora</span>
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
               </Button>
             </a>
           </div>
