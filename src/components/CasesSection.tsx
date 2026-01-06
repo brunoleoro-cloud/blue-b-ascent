@@ -7,6 +7,7 @@ const cases = [
     name: "Bernardo Mello",
     image: caseBernardo,
     subtitle: "Empresário & Influenciador",
+    instagram: "https://www.instagram.com/bm.tenis/",
     stats: [
       { icon: Eye, value: "300k+", label: "visualizações orgânicas" },
       { icon: Play, value: "10-60k", label: "views por Reels" },
@@ -23,6 +24,7 @@ const cases = [
     name: "Evo Club",
     image: caseEvoclub,
     subtitle: "Academia & Lifestyle",
+    instagram: "https://www.instagram.com/tenis.evo/",
     stats: [
       { icon: Eye, value: "3-25k", label: "views por Reels" },
       { icon: Zap, value: "Alto", label: "engajamento" },
@@ -71,9 +73,16 @@ const CasesSection = () => {
                   
                   {/* Name overlay */}
                   <div className="absolute bottom-6 left-6 right-6">
-                    <h3 className="text-2xl font-display font-bold text-primary-foreground">
-                      {caseItem.name}
-                    </h3>
+                    <a 
+                      href={caseItem.instagram} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      <h3 className="text-2xl font-display font-bold text-primary-foreground">
+                        {caseItem.name}
+                      </h3>
+                    </a>
                     <p className="text-primary-foreground/80">{caseItem.subtitle}</p>
                   </div>
                 </div>
