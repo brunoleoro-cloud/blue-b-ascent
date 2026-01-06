@@ -39,7 +39,7 @@ const cases = [
 
 const CasesSection = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="cases" className="py-24 bg-background">
       <div className="container">
         {/* Heading */}
         <div className="text-center mb-16 opacity-0 animate-fade-up">

@@ -20,7 +20,7 @@ const desires = [
 
 const DesiresSection = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="sobre" className="py-24 bg-background">
       <div className="container">
         <div className="max-w-4xl mx-auto">
           {/* Heading */}

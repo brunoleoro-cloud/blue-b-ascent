@@ -38,7 +38,7 @@ const benefits = [
 
 const PackagesSection = () => {
   return (
-    <section className="py-24 bg-muted/30">
+    <section id="pacotes" className="py-24 bg-muted/30">
       <div className="container">
         <div className="max-w-5xl mx-auto">
           {/* Heading */}

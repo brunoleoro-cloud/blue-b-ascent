@@ -11,7 +11,7 @@ const TikTokIcon = () => (
 
 const Footer = () => {
   return (
-    <footer className="py-16 bg-primary text-primary-foreground">
+    <footer id="contato" className="py-16 bg-primary text-primary-foreground">
       <div className="container">
         <div className="max-w-4xl mx-auto">
           {/* Main content */}
