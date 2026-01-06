@@ -30,9 +30,11 @@ const HeroSection = () => {
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </a>
-              <Button variant="heroOutline" size="xl">
-                Ver casos reais
-              </Button>
+              <a href="#cases">
+                <Button variant="heroOutline" size="xl" className="w-full">
+                  Ver casos reais
+                </Button>
+              </a>
             </div>
             
             {/* Trust indicators */}
