@@ -63,8 +63,6 @@ const HeroSection = () => {
                 alt="Profissionais de marketing digital da Blue B"
                 className="w-full h-auto object-cover aspect-[4/3]"
               />
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
             {/* Floating card */}
             <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border border-border opacity-0 animate-scale-in delay-500">
