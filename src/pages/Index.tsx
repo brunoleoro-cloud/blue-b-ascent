@@ -17,6 +17,7 @@ const Index = () => {
         <ProcessSection />
         <CasesSection />
         <ExecutionSection />
+        <CTASection />
       </main>
       <Footer />
     </div>
