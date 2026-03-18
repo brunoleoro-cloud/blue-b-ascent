@@ -4,8 +4,6 @@ import DesiresSection from "@/components/DesiresSection";
 import ProcessSection from "@/components/ProcessSection";
 import CasesSection from "@/components/CasesSection";
 import ExecutionSection from "@/components/ExecutionSection";
-import PackagesSection from "@/components/PackagesSection";
-import PricingSection from "@/components/PricingSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
