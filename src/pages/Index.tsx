@@ -4,6 +4,7 @@ import DesiresSection from "@/components/DesiresSection";
 import ProcessSection from "@/components/ProcessSection";
 import CasesSection from "@/components/CasesSection";
 import ExecutionSection from "@/components/ExecutionSection";
+import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
