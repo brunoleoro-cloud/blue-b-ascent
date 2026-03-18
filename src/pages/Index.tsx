@@ -18,8 +18,6 @@ const Index = () => {
         <ProcessSection />
         <CasesSection />
         <ExecutionSection />
-        <PackagesSection />
-        <PricingSection />
       </main>
       <Footer />
     </div>
