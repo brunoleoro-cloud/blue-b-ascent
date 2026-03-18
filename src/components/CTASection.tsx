@@ -49,7 +49,7 @@ const CTASection = () => {
               </div>
               <div>
                 <p className="font-medium text-foreground text-sm">Instagram</p>
-                <p className="text-muted-foreground text-sm">@bluebvendas</p>
+                <p className="text-muted-foreground text-sm">@bluebmkt</p>
               </div>
             </a>
 

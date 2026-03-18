@@ -25,7 +25,7 @@ const Footer = () => {
           {/* Social links */}
           <div className="flex justify-center gap-4 mb-12">
             <a
-              href="https://www.instagram.com/bluebvendas/"
+              href="https://www.instagram.com/bluebmkt"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
