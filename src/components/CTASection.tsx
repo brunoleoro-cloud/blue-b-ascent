@@ -39,7 +39,7 @@ const CTASection = () => {
             </a>
 
             <a
-              href="https://www.instagram.com/bluebvendas/"
+              href="https://www.instagram.com/bluebmkt"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-3 p-6 rounded-2xl bg-card border border-border hover:border-primary/30 transition-colors"
